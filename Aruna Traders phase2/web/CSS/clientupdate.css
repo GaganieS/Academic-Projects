@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #2193b0, #6dd5ed);
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  color: #fff;
+}
+section{
+  margin: 50px;
+}
+
+
+
+h1{
+  font-family: Lucida Sans;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+
+
+.back
+{
+	position:absolute;
+	top: 3%;
+	right: 02%;
+	margin-right:0px;
+	width:120px;
+	height:32px;
+	background:#E50914 ;
+	border:none;
+	border-radius:3px;
+	color:#fff;
+	cursor:pointer;
+	transition:0.2s;
+        z-index: 9999;
+}
+.back:hover,
+.back:focus
+{
+background:#111;
+transition:0.2s;
+}
+
+
+
+.book
+{
+	position:relative;
+	top: 75%;
+	left: 0%;
+	margin-top:20px;
+        margin-left: 10px;
+	width:140px;
+	height:34px;
+	background:#fff ;
+	border:none;
+	border-radius:3px;
+        font-size: 18px;
+        font-weight: 500;
+	color:#2193b0;
+	cursor:pointer;
+	transition:0.2s;
+        z-index: 9999;
+}
+.book:hover,
+.book:focus
+{
+background:#000;
+color: #fff;
+transition:0.2s;
+}
+
+
+.delete
+{
+	position:relative;
+	top: 75%;
+	left: 0%;
+	margin-top:20px;
+        margin-left: 10px;
+	width:140px;
+	height:34px;
+	background:#fff ;
+	border:none;
+	border-radius:3px;
+        font-size: 18px;
+        font-weight: 500;
+	color:#2193b0;
+	cursor:pointer;
+	transition:0.2s;
+        z-index: 9999;
+}
+.delete:hover,
+.delete:focus
+{
+background:#E50914;
+color: #fff;
+transition:0.2s;
+}

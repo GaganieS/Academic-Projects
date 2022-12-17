@@ -1,0 +1,165 @@
+* {
+box-sizing: border-box;
+}
+
+.register a {
+text-align: right;
+text-decoration: none;
+color: lightblue;
+}
+
+body {
+font-family: Lucida Sans, sans-serif;
+background-image: url(loginpage.jpg);
+background-position: center;
+background-size:cover;
+color: #1DAABF;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+overflow: hidden;
+margin: 0;
+}
+
+.container {
+border-radius: 10%;
+box-shadow:5px 5px 5px rgba(0,0,0,1);
+background-color: white;
+height: 350px;
+width: 300px;
+position: absolute;
+top: 10%;
+}
+
+.container h1 {
+text-align: center;
+margin-bottom: 30px;
+}
+
+.container a {
+text-align: right;
+text-decoration: none;
+color: lightblue;
+}
+
+.un
+{
+    border-width: 3px;
+    border-color: #1DAABF;
+    height: 50px;
+    width: 250px;
+    border-radius: 30%;
+}
+
+.btn {
+cursor: pointer;
+display: inline-block;
+width: 65%;
+background: #1DAABF;
+padding: 15px;
+font-family: inherit;
+color: #FFF;
+font-size: 16px;
+font-weight: bold;
+border: 0;
+border-radius: 30%;
+height: 40px;
+}
+
+.btn:hover,
+.btn:focus
+{
+background: #115E69;
+transition:0.2s;
+}
+
+.btn:focus {
+outline: 0;
+}
+
+.btn:active {
+transform: scale(0.98);
+}
+
+.text {
+margin-top: 30px;
+}
+
+.form-control {
+position: relative;
+margin: 20px 0 40px;
+width: 300px;
+}
+
+.form-control input {
+background-color: transparent;
+border: 0;
+border-bottom: 2px #fff solid;
+display: block;
+width: 100%;
+padding: 15px 0;
+font-size: 18px;
+color: #fff;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+outline: 0;
+border-bottom-color: #E50914;
+}
+
+.form-control label {
+position: absolute;
+top: 15px;
+left: 0;
+pointer-events: none;
+}
+
+.form-control label span {
+display: inline-block;
+font-size: 18px;
+min-width: 5px;
+transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus+label span,
+.form-control input:valid+label span {
+color: #E50914;
+transform: translateY(-30px);
+}
+
+
+.input-box
+{
+    position:absolute;
+    top: 215%;
+    left: 0%;
+    width:300px;
+    height:50px;
+    border:2px solid #fff;
+    border-radius: 3px;
+    outline:none;
+    font-family: Lucida Sans;
+    font-size:16px;
+    color: #fff;
+    background:transparent;
+}
+
+
+select option{
+background-color: #000;
+opacity: 0.5;
+}
+
+
+
+.logo
+{
+	position: fixed;
+	top: 12%;
+	left: 45%;
+	opacity:1;
+	border:none;
+}

@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #000428, #004e92);
+  font-family:  Arial;
+  color: #fff;
+  font-weight: 01;
+}
+
+
+.login-box
+{
+	position:absolute;
+	top:10%;
+	left:20.75%;
+	margin:10% auto;
+	height:400px;
+	width:900px;
+	background:rgba(0,0,0,0.2);
+        border-radius: 10px;
+	box-shadow:5px 5px 5px rgba(0,0,0,1);
+	z-index: -1;
+}
+
+.msg
+{
+    position: fixed;
+    top: 35%;  
+    width: 100%;
+}
+
+
+.logo
+{
+    position: fixed;
+    top: 5%;  
+    left: 37%;
+}
+
+
+.back
+{
+	position:fixed;
+	top: 73%;
+	left: 46%;
+	margin-right:0px;
+	width:120px;
+	height:32px;
+	background:#E50914 ;
+	border:none;
+	border-radius:3px;
+	color:#fff;
+	cursor:pointer;
+	transition:0.2s;
+        z-index: 9999;
+}
+.back:hover,
+.back:focus
+{
+background:#111;
+transition:0.2s;
+}

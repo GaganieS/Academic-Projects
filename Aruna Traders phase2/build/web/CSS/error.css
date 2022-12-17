@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+ body{
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #42275a, #734b6d);
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  color: #fff;
+}
+
+h1{
+  font-family: Lucida Sans;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.content{
+    position: fixed;
+    top: 35%;
+    width: 100%;
+}
+
+.btn
+{
+	position:absolute;
+	top: 85%;
+	left: 38.5%;
+	margin-bottom:28px;
+	width:350px;
+	height:80px;
+	background: #fff;
+	border:none;
+	border-radius:3px;
+        font-size: 30px;
+        font-weight: 500;
+	color:#42275a;
+	cursor:pointer;
+	transition:0.2s;
+}
+.btn:hover,
+.btn:focus
+{
+background:#06beb6;
+color: #fff;
+transition:0.2s;
+}
+
+
+.logo
+{
+	position: absolute;
+	top: 16%;
+	left:37.5%;
+	opacity:1;
+	border:none;
+}

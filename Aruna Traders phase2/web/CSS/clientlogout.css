@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #FCAF45, #F77737);
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+h1{
+  font-family: Lucida Sans;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.content{
+    position: fixed;
+    top: 40%;
+    width: 100%;
+}
+
+.yes-btn
+{
+	position:absolute;
+	top: 74%;
+	left: 30%;
+	margin-bottom:28px;
+	width:300px;
+	height:60px;
+	background: #fff;
+	border:none;
+	border-radius:3px;
+        font-size: 30px;
+        font-weight: 700;
+	color:#F77737;
+	cursor:pointer;
+	transition:0.2s;
+}
+.yes-btn:hover,
+.yes-btn:focus
+{
+background:#25D366;
+color: #fff;
+transition:0.2s;
+}
+
+.no-btn
+{
+	position:absolute;
+	top: 74%;
+	left: 50%;
+	margin-bottom:28px;
+	width:300px;
+	height:60px;
+	background: #fff;
+	border:none;
+	border-radius:3px;
+	font-size: 30px;
+        font-weight: 700;
+	color:#F56040;
+	cursor:pointer;
+	transition:0.2s;
+}
+.no-btn:hover,
+.no-btn:focus
+{
+background:#E50914;
+color: #fff;
+transition:0.2s;
+}
+
+
+.logo
+{
+	position: fixed;
+	top: 16%;
+	left:37.5%;
+}

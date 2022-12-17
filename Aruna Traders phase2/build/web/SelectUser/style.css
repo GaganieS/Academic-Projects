@@ -1,0 +1,290 @@
+h1
+{
+margin-bottom:20px;
+font-size:28px;
+font-family: Lucida Sans, Noto Sans Armenian;
+color:white;
+}
+
+
+
+
+body
+{
+	margin:0;
+	padding:0;
+	font-size:16px;
+	color:#777;
+	font-family:Lucida Sans, Noto Sans Armenian;
+	background-image: url(aruna.jpg);
+        background-position:center;
+        background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-weight:300;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+.login-box
+{
+	position:absolute;
+	top:0%;
+	left:28.75%;
+	margin:10% auto;
+	height:425px;
+	width:750px;
+        background-color: #05EEDD;
+/*	background:rgba(0,0,0,0.2);*/
+	box-shadow:5px 5px 5px rgba(0,0,0,1);
+	z-index: -1;
+        opacity: 0.2;
+        border-radius: 10%;
+}
+
+
+
+
+
+.left-box
+{
+	position:absolute;
+	top:0%;
+	left:0;
+/*	background-color: #282828;
+	opacity: 0.2;*/
+	box-sizing:border-box;
+	padding:40px;
+	width:300px;
+	height:400px;
+}
+
+/*
+.middle-box
+{
+	position:absolute;
+	top:0;
+	left:33.5%;
+	box-sizing:border-box;
+	padding:40px;
+	width:300px;
+	height:400px;
+	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)),url(image3.jpg);
+	background-position:center;
+	background-size:cover;
+}*/
+
+
+.right-box
+{
+	position:absolute;
+	top:0;
+	left:600;
+/*	background-color: #282828;
+	opacity: 0.2;*/
+	box-sizing:border-box;
+	padding:40px;
+	width:300px;
+	height:400px;
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+.staffimg
+{
+	position: fixed;
+	top: 25%;
+	left: 34%;
+	opacity:1;
+	border:none;
+	z-index: 1;
+}
+
+
+/*.userimg
+{
+	position: fixed;
+	top: 35%;
+	left: 43.5%;
+	opacity:1;
+	border:none;
+	z-index: 1;
+}*/
+
+
+.adminimg
+{
+	position: fixed;
+	top: 25%;
+	left: 53%;
+	opacity:1;
+	border:none;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+.left-title
+{
+	position: absolute;
+	top: 55%;
+	left: 35.2%;
+	display:block;
+	margin-bottom:40px;
+	font-size:28px;
+	color:#fff;
+	text-align:center;
+        z-index: 1;
+	text-shadow:0 2px 4px rgba(0,0,0,1)
+	
+}
+
+
+/*.middle-title
+{
+	position: absolute;
+	top: 66%;
+	left: 47.5%;
+	display:block;
+	margin-bottom:40px;
+	font-size:28px;
+	color:#fff;
+	text-align:center;
+	text-shadow:0 2px 4px rgba(0,0,0,0.6)
+}*/
+
+
+
+.right-title
+{
+	position: absolute;
+	top: 55%;
+	left: 56.5%;
+	display:block;
+	margin-bottom:40px;
+	font-size:28px;
+	color:#fff;
+	text-align:center;
+	text-shadow:0 2px 4px rgba(0,0,0,0.6)
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+.submit-btn
+{
+	position:absolute;
+	top: 64%;
+	left: 36.5%;
+	margin-bottom:28px;
+	width:120px;
+	height:32px;
+	background: #05EEDD;
+	border:none;
+	border-radius:3px;
+	color:black;
+	cursor: pointer;
+	transition:0.2s;
+}
+.submit-btn:hover,
+.submit-btn:focus
+{
+background:#111;
+transition:0.2s;
+}
+
+
+
+
+
+/*.submit-btn2
+{
+	position:absolute;
+	top: 74%;
+	left: 46%;
+	margin-bottom:28px;
+	width:120px;
+	height:32px;
+	background: #E50914;
+	border:none;
+	border-radius:3px;
+	color:#fff;
+	cursor:pointer;
+	transition:0.2s;
+}
+.submit-btn2:hover,
+.submit-btn2:focus
+{
+background:#111;
+transition:0.2s;
+}*/
+
+
+.submit-btn3
+{
+	position:absolute;
+	top: 64%;
+	left: 56%;
+	margin-bottom:28px;
+	width:120px;
+	height:32px;
+	background: #05EEDD;
+	border:none;
+	border-radius:3px;
+	color:black;
+	cursor:pointer;
+	transition:0.2s;
+}
+.submit-btn3:hover,
+.submit-btn3:focus
+{
+background:#111;
+transition:0.2s;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*.or
+{
+	position:absolute;
+	top:180px;
+	left:280px;
+	width:40px;
+	height:40px;
+	background:#efefef ;
+	border-radius:50%;
+	line-height:40px;
+	text-align:center;
+	box-shadow:0 2px 4px rgba(0,0,0,0.6)
+}*/
+
+
+/*.or2
+{
+	position:absolute;
+	top:180px;
+	left:580px;
+	width:40px;
+	height:40px;
+	background:#efefef ;
+	border-radius:50%;
+	line-height:40px;
+	text-align:center;
+	box-shadow:0 2px 4px rgba(0,0,0,0.6)
+}*/
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*.logo
+{
+	position: fixed;
+	bottom: 1%;
+	left: 1%;
+	opacity:1;
+	border:none;
+}*/
+
+
+

@@ -1,0 +1,289 @@
+h1
+{
+margin-bottom:20px;
+font-size:28px;
+font-family: Lucida Sans, Noto Sans Armenian;
+color:white;
+}
+
+h2
+{
+margin-top:0px;
+font-size:16px;
+font-family: Lucida Sans, Noto Sans Armenian;
+color:white;
+}
+
+h3
+{
+margin-top:0px;
+font-size:26px;
+font-family: Lucida Sans, Noto Sans Armenian;
+color:white;
+}
+
+body
+{
+	margin:0;
+	padding:0;
+	font-size:20px;
+	color:#777;
+	font-family:Lucida Sans, Noto Sans Armenian;
+	background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(login.jpg);
+background-position:center;
+background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-weight:300;
+}
+
+
+.welcome{
+    position: fixed;
+    top: 0.5%;
+    left: 60%;
+    width: 100%;
+    z-index: 9999;
+}
+.welcome h1{
+margin-bottom:20px;
+font-size:16px;
+font-family:Helvetica;
+color:#282828;
+text-shadow:0 2px 4px rgba(255,28,28,0.0)
+}
+
+.text{
+    position: absolute;
+    margin-top: -10px;
+    font-family: "Lucida Console";
+    font-size: 20px;
+    z-index: 9999;
+}
+
+
+nav{
+	width: 100%;
+	height: 45px;
+	background: #fff;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	opacity: 1;
+	z-index: 9990;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+.viewflight
+{
+	position: fixed;
+	top: 50%;
+	left: 12.5%;
+	width:100px;
+	height:100px;
+	background: url("1.png");
+    background-size: 100%;
+    opacity: 1;
+	cursor:pointer;
+	transition:0.2s;
+	
+}
+.viewflight:hover,
+.viewflight:focus
+{
+background: url("12.png");
+background-size: 100%;
+opacity: 1;
+transition:0.2s;
+}
+
+.addflight
+{
+	position: fixed;
+	top: 50%;
+	left: 35.25%;
+	width:100px;
+	height:100px;
+	background: url("2.png");
+    background-size: 100%;
+    opacity: 1;
+	cursor:pointer;
+	transition:0.2s;
+}
+.addflight:hover,
+.addflight:focus
+{
+background: url("22.png");
+background-size: 100%;
+opacity: 1;
+transition:0.2s;
+}
+
+
+
+.viewtickets
+{
+	position: fixed;
+	top: 50%;
+	left: 82.5%;
+	width:100px;
+	height:100px;
+	background: url("4.png");
+    background-size: 100%;
+    opacity: 1;
+	cursor:pointer;
+	transition:0.2s;
+}
+.viewtickets:hover,
+.viewtickets:focus
+{
+background: url("42.png");
+background-size: 100%;
+opacity: 1;
+transition:0.2s;
+}
+
+
+
+.clients
+{
+	position: fixed;
+	top: 50%;
+	left: 59.75%;
+	width:100px;
+	height:100px;
+	background: url("6.png");
+    background-size: 100%;
+    opacity: 1;
+	cursor:pointer;
+	transition:0.2s;
+}
+.clients:hover,
+.clients:focus
+{
+background: url("62.png");
+background-size: 100%;
+opacity: 1;
+transition:0.2s;
+}
+
+
+
+
+
+.logout-btn
+{
+	position:absolute;
+	top: 0.75%;
+	right: 013.5%;
+	margin-right:0px;
+	width:120px;
+	height:32px;
+	background:#E50914 ;
+	border:none;
+	border-radius:3px;
+	color:#fff;
+	cursor:pointer;
+	transition:0.2s;
+        z-index: 9999;
+}
+.logout-btn:hover,
+.logout-btn:focus
+{
+background:#111;
+transition:0.2s;
+}
+
+.clientdash-btn
+{
+	position:absolute;
+	top: 0.75%;
+	right: 01%;
+	margin-right:0px;
+	width:175px;
+	height:32px;
+	background:#34B7F1 ;
+	border:none;
+	border-radius:3px;
+	color:#fff;
+	cursor:pointer;
+	transition:0.2s;
+        z-index: 9999;
+}
+.clientdash-btn:hover,
+.clientdash-btn:focus
+{
+background:#111;
+transition:0.2s;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+.viewflights-title
+{
+	position: absolute;
+	top: 64%;
+	left: 12%;
+	display:block;
+	margin-bottom:40px;
+	font-size:35;
+	color:#fff;
+	text-align:center;
+        z-index: 1;
+	text-shadow:0 2px 4px rgba(0,0,0,0.6)
+	
+}
+
+.addflights-title
+{
+	position: absolute;
+	top: 64%;
+	left: 34.75%;
+	display:block;
+	margin-bottom:40px;
+	font-size:20;
+	color:#fff;
+	text-align:center;
+	text-shadow:0 2px 4px rgba(0,0,0,0.6)
+}
+
+
+.clients-title
+{
+	position: absolute;
+	top: 64%;
+	left:59.25%;
+	display:block;
+	margin-bottom:40px;
+	font-size:20;
+	color:#fff;
+	text-align:center;
+	text-shadow:0 2px 4px rgba(0,0,0,0.6)
+}
+
+
+
+.viewtickets-title
+{
+	position: absolute;
+	top: 64%;
+	left:81.5%;
+	display:block;
+	margin-bottom:40px;
+	font-size:20;
+	color:#fff;
+	text-align:center;
+	text-shadow:0 2px 4px rgba(0,0,0,0.6)
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.logo
+{
+	position: fixed;
+	top: 8%;
+	left: 36%;
+	opacity:1;
+	border:none;
+	z-index: 99999;
+}
